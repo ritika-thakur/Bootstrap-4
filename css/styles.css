@@ -1,0 +1,42 @@
+.row-header{
+    margin: 0px auto;
+    padding: 0px auto;
+}
+.row-content{
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+}
+.side-heading{
+    color: darkcyan;
+}
+footer{
+    background-color: #eee;
+    margin: 0px auto;
+    padding: 20px 0px;
+    color: #333;
+}
+.jumbotron{
+    padding: 70px 30px;
+    margin: 0px auto;
+    background-color: lightseagreen;
+    color: floralwhite;
+}
+.address{
+    font-size: 80%;
+    margin: 0px;
+    color: #333;
+}
+a{
+     color: #333;
+    
+}
+a:hover{
+    color: darkcyan;
+    text-decoration: none;
+}
+.copyright{
+    color: lightslategrey;
+    font-size: small;
+}
