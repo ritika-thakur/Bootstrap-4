@@ -1,3 +1,7 @@
+body{
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
 .row-header{
     margin: 0px auto;
     padding: 0px auto;
@@ -39,4 +43,13 @@ a:hover{
 .copyright{
     color: lightslategrey;
     font-size: small;
+}
+nav{
+    background-color: darkcyan;
+}
+.navbar-brand{
+    padding-right: 50px;
+}
+h5{
+    color: darkcyan;
 }
