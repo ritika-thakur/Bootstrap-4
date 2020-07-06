@@ -1,6 +1,7 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
+    color: #333;
 }
 .row-header{
     margin: 0px auto;
@@ -50,6 +51,55 @@ nav{
 .navbar-brand{
     padding-right: 50px;
 }
-h5{
-    color: darkcyan;
+h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.sub-heading{
+    word-spacing: 4px;
+    font-size: 19px;
+}
+.sub-topics{
+    margin-bottom: 30px;
+    font-size: 38px;
+    font-weight: 400;
+    color: lightseagreen;
+}
+.leader-name{
+   color: grey;
+   padding: 10px 0;
+}
+.d-none{
+    margin-bottom: 50px;
+}
+.aboutus-heading{
+    padding: 0px 10px;
+    color: lightslategray;
+}
+p{
+    font-size: 17px;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.footer-icon{
+    padding-right: 14px;
+}
+.btn-google {
+    color: #d34836;
+}
+.btn-facebook{
+    color: #3b5998;
+}
+.btn-linkedin{
+  color: #0077b5;
+}
+.btn-twitter{
+    color: #00acee;
+}
+.btn-gmail{
+    color: blue;
+}
+.btn-youtube{
+    color: #c4302b;
 }
