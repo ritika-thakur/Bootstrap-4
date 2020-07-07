@@ -11,7 +11,7 @@ body{
     margin: 0px auto;
     padding: 50px 0px;
     border-bottom: 1px ridge;
-    min-height: 300px;
+    min-height: 200px;
 }
 .side-heading{
     color: darkcyan;
@@ -34,11 +34,11 @@ footer{
     color: #333;
 }
 a{
-     color: #333;
+     color: darkcyan;
     
 }
 a:hover{
-    color: darkcyan;
+    color: #333;
     text-decoration: none;
 }
 .copyright{
@@ -61,11 +61,11 @@ h1{
 }
 .sub-topics{
     margin-bottom: 30px;
-    font-size: 38px;
+    font-size: 35px;
     font-weight: 400;
     color: lightseagreen;
 }
-.leader-name{
+.leader-name, .information{
    color: grey;
    padding: 10px 0;
 }
@@ -102,4 +102,10 @@ p{
 }
 .btn-youtube{
     color: #c4302b;
+}
+.btn-contact{
+    margin: 10px 10px;
+}
+hr{
+    color: red;
 }
