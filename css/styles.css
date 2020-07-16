@@ -59,10 +59,10 @@ h1{
     word-spacing: 4px;
     font-size: 19px;
 }
-h2{
+/* h2{
     margin-bottom: 50px;
     font-size: 35px;
-}
+} */
 .leader-name, .information{
    color: grey;
    padding: 10px 0;
@@ -74,9 +74,7 @@ h2{
     padding: 0px 10px;
     color: lightslategray;
 }
-p{
-    font-size: 17px;
-}
+
 .nav-item{
     padding-left: 20px;
 }
