@@ -1,140 +1,57 @@
-body{
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
-    color: #333;
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
 }
-.row-header{
-    margin: 0px auto;
-    padding: 0px auto;
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
-.row-content{
-    margin: 0px auto;
-    padding: 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px;
 }
-.side-heading{
-    color: darkcyan;
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: lightseagreen;
+  color: floralwhite;
 }
-footer{
-    background-color: #eee;
-    margin: 0px auto;
-    padding: 20px 0px;
-    color: #333;
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f;
 }
-.jumbotron{
-    padding: 70px 30px;
-    margin: 0px auto;
-    background-color: lightseagreen;
-    color: floralwhite;
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
-.address{
-    font-size: 80%;
-    margin: 0px;
-    color: #333;
-}
-a{
-     color: darkcyan;
-    
-}
-a:hover{
-    color: #333;
-    text-decoration: none;
-}
-.copyright{
-    color: lightslategrey;
-    font-size: small;
-}
-nav{
-    background-color: darkcyan;
-}
-.navbar-brand{
-    padding-right: 50px;
-}
-h1{
-    font-size: 45px;
-    margin-bottom: 30px;
-}
-
-.sub-heading{
-    word-spacing: 4px;
-    font-size: 19px;
-}
-.sub-topics{
-    margin-bottom: 50px;
-    font-size: 35px;
-}
-.leader-name, .information{
-   color: grey;
-}
-
-.aboutus-heading{
-    padding: 0px 10px;
-    color: lightslategray;
-}
-
-.nav-item{
-    padding-left: 20px;
-}
-.footer-icon{
-    padding-right: 14px;
-}
-.btn-google {
-    color: #d34836;
-}
-.btn-facebook{
-    color: #3b5998;
-}
-.btn-linkedin{
-  color: #0077b5;
-}
-.btn-twitter{
-    color: #00acee;
-}
-.btn-gmail{
-    color: blue;
-}
-.btn-youtube{
-    color: #c4302b;
-}
-.btn-contact{
-    margin: 10px 10px;
-}
-hr{
-    color: red;
-}   
-.form-check{
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.img-fluid{
-    margin-left: 50px;
-}
-.btn-lg{
-    width: 250px;
+.navbar-dark {
+  background-color: darkcyan;
 }
 .tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
 }
-.carousel{
-    background-color: darkcyan;
+.carousel {
+  background: darkcyan;
 }
-.carousel-item{
-    height: 300px;
+.carousel .carousel-item {
+  height: 300px;
 }
-.carousel-item img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
 }
 #carouselButton {
-    right: 0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
 }
